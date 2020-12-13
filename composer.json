@@ -1,0 +1,15 @@
+{
+    "name": "gabrielcombalia/autoload",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {},
+    "description": "descricao",
+    "config": {
+        "vendor-lib": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        }
+    }
+}
