@@ -2,7 +2,6 @@
     "name": "gabrielcombalia/autoload",
     "type": "library",
     "minimum-stability": "stable",
-    "require": {},
     "description": "descricao",
     "config": {
         "vendor-lib": "vendor"
@@ -11,5 +10,8 @@
         "psr-4": {
             "Source\\": "source/"
         }
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.0"
     }
 }

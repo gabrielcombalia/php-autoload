@@ -11,8 +11,7 @@ fullStackPHPClassSession("autoload spl psr-4", __LINE__);
 //require __DIR__."/source/Loading/Address.php";
 //require __DIR__."/source/Loading/Company.php";
 
-//require __DIR__."/source/autoload.php";
-require __DIR__."/vendor/autoload.php";
+require __DIR__."/source/autoload.php";
 
 $user = new  \Source\Loading\User();
 $address = new \Source\Loading\Address();
